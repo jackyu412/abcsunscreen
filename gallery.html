@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>ABCsunscreen | Gallery</title>
+    <link rel="icon" type="image/x-icon" href="A.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="ABCsunscreen" />
+    <meta property="og:image" content="A.png" />
+    <link href="layout.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+</head>
+<style>
+    .heading {
+        padding-top: 20px;
+        background-color: #FFFFFF;
+    }
+
+    .gallery-image {
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery-image img {
+        transform: scale(1.0);
+        transition: transform 0.4s ease;
+        position: relative;
+        align-content: center;
+        vertical-align: middle;
+    }
+
+    .img-box {
+        box-sizing: inherit;
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        display: inline-block;
+        color: white;
+        position: relative;
+        background-color: white;
+    }
+
+    .caption {
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        opacity: 0.0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .transparent-box {
+        height: 300px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: background-color 0.3s ease;
+    }
+
+    .img-box:hover img {
+        transform: scale(1.1);
+    }
+
+    .img-box:hover .transparent-box {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .img-box:hover .caption {
+        transform: translateY(-20px);
+        opacity: 1.0;
+    }
+
+    .img-box:hover {
+        cursor: pointer;
+    }
+
+    .caption>p:nth-child(2) {
+        font-size: 0.8em;
+    }
+
+    .opacity-low {
+        opacity: 0.5;
+    }
+
+</style>
+
+<body id="top">
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+     <!--Navigation bar-->
+    <div class="wrapper row1">
+    <header id="header" class="hoc clear" style="display:inline">
+        <!-- ################################################################################################ -->
+        <div id="logo" class="fl_left">
+            <h1><a href= "index.html"><img id="logo1" src="Ablueback.png"></a><a href="index.html">sunscreen</a></h1>
+        </div>
+        <nav id="mainav" class="fl_right">
+            <ul class="clear">
+                
+
+                    <div class="links">
+                        <li class="active"><a href="index.html" style="color:cornsilk">Home </a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a class="drop" href="outreach.html">Outreach</a>
+                            <ul>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="construction.html">Accomplishments</a></li>
+                                <li><a href="numbers.html">The Numbers</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="drop">Resources</a>
+                            <ul>
+                                <li><a href="sunscreeninfo.html">Sunscreen Usage
+                                        <i class="fa fa-question-circle"></i></a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="form.html">Booth Request</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="donate" href="construction.html">Donate</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </div>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row2">
+        <div id="breadcrumb" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="outreach.html">Outreach</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <!-- ################################################################################################ -->
+        </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row3">
+        <main>
+            <!-- main body -->
+            <!-- ################################################################################################ -->
+            <div class="content">
+                <!-- ################################################################################################ -->
+                <div id="gallery">
+                <header class="heading" style="text-align: center">ABCsunscreen Gallery</header>
+                    <!------------------------post 7 ---------------------------->
+                    <!------------------------post 7 ---------------------------->
+                    <!------------------------post 6 ---------------------------->
+                    <p id="1nmstate" style="text-align: center">NM State Long Course Championships 7/(11-14)/2024 <a href="outreach.html#1nmstate" style="text-align: center"> See our debrief here</a></p> 
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="nmstate1.JPG" href="nmstate1.JPG" />
+                        
+                            </div>
+                            <div class="img-box">
+                                <img src="nmstate2.JPG" href="nmstate2.JPG" />
+                            
+                            </div>
+                            <div class="img-box">
+                                <img src="nmstate3.JPG" href="nmstate3.JPG" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="nmstate4.JPG" href="nmstate3.JPG" />
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    
+                    <!------------------------post 6 ---------------------------->
+                    <p id="2railyards" style="text-align: center">Albuquerque Academy Invite Soccer Tournament 9/16/23</p>
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="soccer1.jpg" href="soccer1.jpg" />
+                                <div class="transparent-box">
+                                    <div class="caption">
+                                        <p class="opacity-low">Sunscreen!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img-box">
+                                <img src="soccer2.jpg" href="soccer2.jpg" />
+                                <!--<div class="transparent-box"></div>
+                                <div class="caption">
+                                    <p class="opacity-low">for spectators and athletes</p>
+                                </div>
+-->
+                        
+                        </div>
+                    <!------------------------post 5 ---------------------------->
+                    <figure>
+                        
+                        <p id="2railyards" style="text-align: center">Railyards Markets, Albuquerque 7/2/23<a href="outreach.html#2railyards" style="text-align: center"> See our debrief here</a></p>
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="railyard2%201.jpg" href="railyard2%201.jpg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="railyard2%203.jpg" href="railyard2%203.jpg" />
+                                
+
+                            </div>
+                            <div class="img-box">
+                                <img src="railyard2%205.jpg" alt="" href="railyard2%205.jpg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="railyard2%2010.jpg" alt="" href="railyard2%2010.jpg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="railyard2%2013.jpeg" alt="" href="railyard2%2013.jpeg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="railyard2%2015.jpeg" alt="" href="railyard2%2015.jpeg" />
+                               
+                            </div>
+                        
+                        </div>
+                    </figure>
+                    <!------------------------post 5 ---------------------------->
+                    <!------------------------post 4 ---------------------------->
+                    <figure>
+                        <p  style="text-align: center">Hillenbrand Aquatic Center, Tuscon 6/10/23</p>
+
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="tuscon1.jpg" href="tuscon1.jpg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="tuscon2.jpg" href="tuscon2.jpg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="tuscon3.jpg" alt="" href="tuscon3.jpg" />
+                                
+                            </div>
+                        
+                        </div>
+                    </figure>
+                    <!------------------------post 4 ---------------------------->
+                    <!------------------------post 3 ---------------------------->
+                    <figure>
+                       
+                        <p id="1thinksummer" style="text-align: center">Kiddie Academy 6/10/23<a href="outreach.html#kiddie" style="text-align: center"> See our debrief here</a></p>
+
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="kiddie1.jpeg" href="kiddie1.jpeg" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="kiddie2.jpeg" href="kiddie2.jpeg" />
+                               
+
+                            </div>
+                            <div class="img-box">
+                                <img src="kiddie3.jpeg" alt="" href="kiddie3.jpeg" />
+                               
+                            </div>
+                        
+                        </div>
+                    </figure>
+                    <!--------------post 2 -------------------------------->
+                    <figure>
+                        <p id="1thinksummer" style="text-align: center">Think Summer 6/4/23<a href="outreach.html#1thinksummer" style="text-align: center"> See our debrief here</a></p>
+
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="think2.JPEG" href="think2.JPEG" />
+                                
+
+                            </div>
+                            <div class="img-box">
+                                <img src="think3.jpg" alt="" href="think3.jpg" />
+                               
+                            </div>
+                            <div class="img-box">
+                                <img src="think4.jpg" href="think4.jpg" alt="" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="think5.jpg" href="think5.jpg" alt="" />
+                                
+                            </div>
+
+                        </div>
+                    </figure>
+                    <!-- post 2 ----------------------------------------------------->
+                    <!-- post 1 ----------------------------------------------------->
+                    <figure>
+                        <p id="1railyards" style="text-align: center">Railyards 5/28/23<a href="outreach.html#1railyards" style="text-align: center"> See our debrief here</a></p>
+
+                        <div class="gallery-image">
+                            <div class="img-box">
+                                <img src="Railyards1.jpg" href="Railyards1.jpg" alt="" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="Railyards2.JPG" alt="" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="Railyards3.JPG" alt="" />
+                               
+                            </div>
+                            <div class="img-box">
+                                <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_600,q_75,w_900/https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/albuquerque/RFIL_121116_0496_2__8f1570ff-1e7d-41f9-852b-fd05d318c38a.jpg" alt="" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="Railyards5.jpg" alt="" />
+                                
+                            </div>
+                            <div class="img-box">
+                                <img src="Railyards6.JPG" alt="" />
+                                
+                            </div>
+                        </div>
+                    </figure>
+
+                    <!-- ################################################################################################ -->
+                    <!-- ################################################################################################ -->
+                    <!-- <nav class="pagination">
+        <ul>
+          <li><a href="#">&laquo; Previous</a></li>
+        <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">6</a></li>
+          <li class="current"><strong>7</strong></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li><a href="#">Next &raquo;</a></li>
+        </ul>
+      </nav>
+        -->
+                    <!-- ################################################################################################ -->
+                </div>
+            </div>
+            <!-- ################################################################################################ -->
+            <!-- / main body -->
+            <div class="clear"></div>
+        </main>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row4">
+        <footer id="footer" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <div class="fl_left">
+                <ul class="nospace btmspace-30 linklist contact">
+                    <li><i class="fa fa-phone"></i> +1 (762) 728 8971</li>
+                    <li><i class="fa fa-envelope-o"></i>jackyu@abcsunscreen.org</li>
+                </ul>
+            </div>
+
+            <div class="fl_right">
+                <ul class="faico clear">
+                    <li>
+                        <p>follow us on Instagram!</p>
+                    </li>
+                    <li><a class="faicon-dribble" href="https://www.instagram.com/abcsunscreen/"><i class="fa fa-instagram "></i></a></li>
+                </ul>
+            </div>
+            <!-- ################################################################################################ -->
+        </footer>
+    </div>
+
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row5">
+        <div id="copyright" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <p style="text-align:center">Copyright &copy; ABCsunscreeen 2023 - All Rights Reserved - <a href="index.html">abcsunscreen.com</a></p>
+
+            <!-- ################################################################################################ -->
+        </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <!-- JAVASCRIPTS -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.backtotop.js"></script>
+    <script src="jquery.mobilemenu.js"></script>
+    <script>
+        $(function() {
+            $("#nav-placeholder").load("nav.html");
+        });
+
+    </script>
+    <script>
+        var loc = window.location.href + '';
+        if (loc.indexOf('http://') == 0) {
+            window.location.href = loc.replace('http://', 'https://');
+        }
+
+    </script>
+</body>
+
+</html>
